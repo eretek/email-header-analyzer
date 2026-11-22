@@ -1,0 +1,15 @@
+{
+  "name": "email-header-analyzer",
+  "version": "1.1.3",
+  "private": true,
+  "description": "Paste an email header to see the Received chain, delays between servers, SPF/DKIM/DMARC results and DKIM signature details. Body and attachments are not needed.",
+  "license": "SEE LICENSE IN LICENSE",
+  "homepage": "https://sistem.eretek.com/en/tools/email-header-analyzer",
+  "scripts": {
+    "start": "node scripts/serve.js",
+    "test": "node test/run.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

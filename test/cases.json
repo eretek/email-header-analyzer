@@ -1,0 +1,31 @@
+{
+ "tests": [
+  {
+   "in": {
+    "hdr": "Received: from b by c; Mon, 16 Nov 2026 09:01:30 +0000\nReceived: from a by b; Mon, 16 Nov 2026 09:00:00 +0000\nFrom: x@y.example"
+   },
+   "v": {
+    "hops": 2,
+    "delays": [
+     90
+    ]
+   }
+  },
+  {
+   "in": {
+    "hdr": "Received: from b by c;\n\tMon, 16 Nov 2026 12:00:00 +0300\nReceived: from a by b; Mon, 16 Nov 2026 08:59:00 +0000"
+   },
+   "v": {
+    "delays": [
+     60
+    ]
+   }
+  },
+  {
+   "in": {
+    "hdr": "bu bir başlık değil"
+   },
+   "err": "hdr"
+  }
+ ]
+}
